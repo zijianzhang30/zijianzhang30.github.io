@@ -1,0 +1,163 @@
+cv:
+  name: Zijian Zhang
+  label: Robotics Researcher
+  email: zijianzhang821@gmail.com
+  location: Beijing, China
+  image: assets/img/self.png
+  summary: M.S. student at the University of Chinese Academy of Sciences working on robot learning, vision-language-action models, world-action models, 3D Gaussian world models, and 3D perception.
+
+  social_networks: []
+
+  sections:
+    Education:
+      - institution: University of Chinese Academy of Sciences
+        location: Beijing, China
+        area: Computer Application Technology
+        studyType: M.S.
+        start_date: 2026-09
+        end_date: present
+        highlights:
+          - School of Artificial Intelligence.
+          - Research interests include robot learning, vision-language-action models, world-action models, and 3D vision.
+
+      - institution: University of Science and Technology Beijing
+        location: Beijing, China
+        area: Robotics Engineering
+        studyType: B.Eng.
+        start_date: 2022-09
+        end_date: 2026-07
+        score: "90.46, Rank 4"
+        courses: "Calculus, Probability and Statistics, Automatic Control, Robot Theory, Mechanical Principles, Robotics Engineering Practice"
+        highlights:
+          - National Scholarship; Xuchang Yuandong Science and Innovation Scholarship, First Prize.
+          - Merit Student and Outstanding Student Cadre.
+          - Programming languages include C, C++, Python, and MATLAB.
+
+    Research:
+      - company: WorldDream
+        position: Co-first second author
+        location: Beijing, China
+        start_date: 2026-04
+        end_date: 2026-07
+        summary: Action-compatible 3D world tokens for efficient vision-language-action control.
+        highlights:
+          - Designed world state tokens, world prediction tokens, and a coupled Gaussian world head for compact 3D world modeling inside VLA policies.
+          - Used static-dynamic residual transition modeling with RGB, depth, alpha, and 3D motion supervision during training, while removing Gaussian decoding modules at inference.
+          - Achieved 98.6% average success rate on LIBERO and improved spatial generalization in LIBERO-Plus and real-robot settings.
+
+      - company: GaussianWAM
+        position: Co-first first author
+        location: Beijing, China
+        start_date: 2026-04
+        end_date: 2026-07
+        summary: Distilling geometry and semantics from 3D Gaussian fields into world-action models.
+        highlights:
+          - Proposed a Gaussian Field Enhancement framework to inject 3D geometry and visual semantics into action-relevant WAM representations.
+          - Bound geometry and semantic features to 3D Gaussian primitives, then distilled rendered semantic, depth, and alpha signals into policy representations.
+          - Improved FastWAM on LIBERO-Plus from 52.05% to 70.99% and Cosmos Policy from 71.52% to 77.30% with no extra inference overhead.
+
+      - company: GaussianDream
+        position: Co-first author
+        location: Beijing, China
+        start_date: 2025-11
+        end_date: 2026-05
+        summary: A feed-forward 3D Gaussian world model for robotic manipulation.
+        highlights:
+          - Built a 3D Gaussian world model plug-in for VLA policies to learn current scene structure and short-horizon future dynamics from robot trajectories.
+          - Introduced GaussianDream queries and a temporal 3D-aware encoder with current Gaussian reconstruction and future Gaussian prediction objectives.
+          - Achieved 98.4% average success on LIBERO, 54.8% on RoboCasa Human-50, and 50.0% on real-robot tasks.
+
+      - company: Fuse and Refine
+        position: First author and independent lead
+        location: Beijing, China
+        start_date: 2025-10
+        end_date: 2026-03
+        summary: Robust and accurate HD map auto-labeling for large-scale autonomous-driving scenes.
+        highlights:
+          - Developed an auto-labeling pipeline for static road elements from multimodal perception to vectorized HD map annotations.
+          - Built training and evaluation pipelines on self-collected data, using VMA as the baseline and adding Sp-Net for robust coarse detection.
+          - Projected initial predictions back to raw point clouds for local sampling and used Refine-Net to correct geometric position and shape errors.
+
+    Engineering Projects:
+      - company: Software-Defined Parallel LiDARs for Active 3D Perception
+        position: First author and independent lead
+        location: Beijing, China
+        start_date: 2025-03
+        end_date: 2025-08
+        summary: Active LiDAR scanning and collaborative perception framework for autonomous driving.
+        highlights:
+          - Trained and compressed PointPillars on a multimodal dataset, then deployed the model on NVIDIA Orin with TensorRT acceleration.
+          - Used V2V communication to fuse neighboring vehicle data, generate dynamic RoI regions, and optimize LiDAR scanning parameters.
+
+      - company: BEVFusion Deployment for Unmanned Mining Vehicles
+        position: Independent lead
+        location: Beijing, China
+        start_date: 2024-09
+        end_date: 2025-02
+        summary: Training, pruning, acceleration, and edge deployment of a BEVFusion-based 3D object detection system.
+        highlights:
+          - Used Swin, FPN, and Depth LSS for camera BEV features and voxelization with SparseEncoder for point-cloud BEV features.
+          - Deployed the multimodal detector on NVIDIA Orin and used TensorRT for efficient 3D detection.
+
+    Awards:
+      - title: ROBOCON Equestrian Speed Race
+        date: 2025-07
+        awarder: National College Student Robot Competition
+        summary: Champion; algorithm and finance lead.
+
+      - title: Jingdiao Cup Graduation Design Competition
+        date: 2026-05
+        awarder: Jingdiao Cup
+        summary: First Prize; independent lead.
+
+      - title: ROBOCON Programming Challenge
+        date: 2024-07
+        awarder: National College Student Robot Competition
+        summary: Champion; second core member of the electrical control group.
+
+      - title: ROBOCON Granary Challenge
+        date: 2024-07
+        awarder: National College Student Robot Competition
+        summary: Third Place; second core member of the electrical control group.
+
+      - title: ROBOCON Skill Challenge
+        date: 2024-07
+        awarder: National College Student Robot Competition
+        summary: Fourth Place; first core member of the electrical control group.
+
+      - title: Beijing Undergraduate Electronic Design Contest
+        date: 2024-08
+        awarder: Beijing Undergraduate Electronic Design Contest
+        summary: Third Prize; responsible for sensing modules.
+
+      - title: North China Logistics Technology Competition
+        date: 2024-09
+        awarder: Mechanical Engineering Innovation and Creativity Competition
+        summary: Second Prize; first core member of the electrical control group.
+
+      - title: National and Beijing Undergraduate Mathematics Competitions
+        date: 2023-11
+        awarder: Undergraduate Mathematics Competition
+        summary: Second Prize.
+
+    Robotics Competition:
+      - company: MEI Competitive Robotics Lab
+        position: Electrical control developer, ROBOCON 2024
+        location: Beijing, China
+        start_date: 2023-08
+        end_date: 2024-07
+        highlights:
+          - Led electrical control system development, including dual-core controller integration, I2C, TTL serial, RS485, and CAN communication.
+          - Implemented cascaded PID control for velocity and position loops, including omni-directional, mecanum, and steering-wheel chassis control.
+          - Integrated M3508, 2006, GM6020, and Sunny Sky motors with VESC, C610, and C620 drivers.
+
+    Skills:
+      - name: Programming
+        icon: fa-solid fa-code
+        keywords: "C, C++, Python, MATLAB"
+      - name: Robotics and Perception
+        icon: fa-solid fa-robot
+        keywords: "Robot learning, VLA, WAM, 3D Gaussian, BEV perception, LiDAR, TensorRT, NVIDIA Orin"
+      - name: Languages
+        icon: fa-solid fa-language
+        keywords: "Chinese, English (CET-6 474, CET-4 519)"
