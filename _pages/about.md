@@ -55,6 +55,18 @@ permalink: /
     margin-right: 0.75rem;
   }
 
+  .home-nav {
+    margin: 1rem 0 1.15rem;
+    padding: 0.85rem 0;
+    border-top: 1px solid var(--global-divider-color);
+    border-bottom: 1px solid var(--global-divider-color);
+  }
+
+  .home-nav a {
+    display: block;
+    margin: 0.28rem 0;
+  }
+
   .home-main h2 {
     font-size: 1.45rem;
     border-bottom: 1px solid var(--global-divider-color);
@@ -136,6 +148,13 @@ permalink: /
       <a href="{{ '/cv/' | relative_url }}">CV</a>
       <a href="{{ '/publications/' | relative_url }}">Publications</a>
     </div>
+    <div class="home-nav">
+      <a href="#experience">Experience</a>
+      <a href="#paper">Paper</a>
+      <a href="#project">Project</a>
+      <a href="#awards">Awards</a>
+      <a href="#skills">Skills</a>
+    </div>
   </aside>
 
   <main class="home-main">
@@ -174,29 +193,24 @@ permalink: /
       <p>GPA ranking: 4th. National Scholarship; Xuchang Yuandong Science and Innovation Scholarship, First Prize; Merit Student and Outstanding Student Cadre.</p>
     </div>
 
-    <h2>Research Experience</h2>
+    <h2 id="experience">Experience</h2>
     <div class="home-item">
-      <div class="home-item-title">GaussianDream: A Feed-Forward 3D Gaussian World Model for Robotic Manipulation</div>
-      <div class="home-item-meta">Co-first author · 2025.11 - 2026.05 · <a href="https://arxiv.org/abs/2605.20752">arXiv</a></div>
-      <p>Built a 3D Gaussian world model plug-in for VLA policies to learn current scene structure and short-horizon future dynamics from robot trajectories.</p>
+      <div class="home-item-title"><a href="https://ia.cas.cn/" target="_blank" rel="noopener">中国科学院自动化研究所</a></div>
+      <div class="home-item-meta">Research Intern · 2024.08 - 2025.09</div>
+      <p>Worked on multimodal perception and robot learning topics in a research environment focused on intelligent science and technology.</p>
     </div>
     <div class="home-item">
-      <div class="home-item-title">GaussianWAM: Distilling Geometry and Semantics from 3D Gaussian Fields into World-Action Models</div>
-      <div class="home-item-meta">Co-first first author · 2026.04 - 2026.07</div>
-      <p>Proposed Gaussian Field Enhancement to inject 3D geometry and visual semantics into action-relevant WAM representations with zero extra inference overhead.</p>
+      <div class="home-item-title"><a href="https://www.trunk.tech/" target="_blank" rel="noopener">主线科技</a></div>
+      <div class="home-item-meta">Research Engineer · 2025.09 - 2026.02</div>
+      <p>Worked on autonomous-driving perception and system deployment for intelligent truck and logistics scenarios.</p>
     </div>
     <div class="home-item">
-      <div class="home-item-title">WorldDream: Action-Compatible 3D World Tokens for Efficient Vision-Language-Action Control</div>
-      <div class="home-item-meta">Co-first second author · 2026.04 - 2026.07</div>
-      <p>Designed world state tokens, world prediction tokens, and a coupled Gaussian world head for compact 3D world modeling inside VLA policies.</p>
-    </div>
-    <div class="home-item">
-      <div class="home-item-title">Fuse and Refine: Towards Robust and Accurate HD Map Annotation</div>
-      <div class="home-item-meta">First author and independent lead · 2025.10 - 2026.03</div>
-      <p>Developed a multimodal HD map auto-labeling pipeline for static road elements in large-scale autonomous-driving scenes.</p>
+      <div class="home-item-title"><a href="https://github.com/TuojingAI" target="_blank" rel="noopener">拓境智能</a></div>
+      <div class="home-item-meta">Research / Engineering Intern · 2026.02 - Present</div>
+      <p>Currently working on embodied AI and world-model related research and engineering tasks.</p>
     </div>
 
-    <h2>Selected Publications</h2>
+    <h2 id="paper">Paper</h2>
     <ul>
       <li>
         <strong>GaussianDream: A Feed-Forward 3D Gaussian World Model for Robotic Manipulation.</strong><br>
@@ -204,7 +218,7 @@ permalink: /
       </li>
       <li>
         <strong>Software-Defined Parallel LiDARs for Active 3D Perception.</strong><br>
-        Zijian Zhang. IEEE/ASME MESA, 2025.
+        Zijian Zhang. IEEE/ASME MESA, 2025. <a href="https://ieeexplore.ieee.org/document/11278878" target="_blank" rel="noopener">Paper</a>
       </li>
       <li>
         <strong>Fuse and Refine: Towards Robust and Accurate HD Map Annotation.</strong><br>
@@ -212,14 +226,17 @@ permalink: /
       </li>
     </ul>
 
-    <h2>Selected Projects</h2>
+    <h2 id="project">Project</h2>
     <ul>
-      <li><strong>Software-Defined Parallel LiDARs:</strong> active LiDAR scanning and V2V collaborative perception for autonomous driving.</li>
-      <li><strong>BEVFusion Deployment:</strong> multimodal 3D object detection deployed on NVIDIA Orin with TensorRT acceleration.</li>
-      <li><strong>ROBOCON Robot Control:</strong> dual-core controller integration, CAN/RS485 communication, cascaded PID, and chassis control.</li>
+      <li><strong>GaussianDream:</strong> 3D Gaussian world model for robotic manipulation.</li>
+      <li><strong>WorldDream:</strong> action-compatible world tokens for efficient VLA control.</li>
+      <li><strong>GaussianWAM:</strong> geometry and semantics distillation into world-action models.</li>
+      <li><strong>Fuse and Refine:</strong> HD map auto-labeling for autonomous driving scenes.</li>
+      <li><strong>Software-Defined Parallel LiDARs:</strong> active 3D perception with collaborative scanning.</li>
+      <li><strong>Competitions:</strong> ROBOCON robot control and multiple national robotics awards.</li>
     </ul>
 
-    <h2>Awards</h2>
+    <h2 id="awards">Awards</h2>
     <ul>
       <li>Champion, ROBOCON Equestrian Speed Race, 2025.</li>
       <li>First Prize, Jingdiao Cup Graduation Design Competition, 2026.</li>
@@ -228,7 +245,7 @@ permalink: /
       <li>National Scholarship; Xuchang Yuandong Science and Innovation Scholarship, First Prize.</li>
     </ul>
 
-    <h2>Skills</h2>
+    <h2 id="skills">Skills</h2>
     <p>
       <strong>Programming:</strong> C, C++, Python, MATLAB.<br>
       <strong>Robotics and Perception:</strong> robot learning, VLA, WAM, 3D Gaussian, BEV perception, LiDAR, TensorRT, NVIDIA Orin.<br>
