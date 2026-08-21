@@ -209,31 +209,40 @@ permalink: /
       <div class="home-item-meta">Research / Engineering Intern · 2026.02 - Present</div>
       <p>Currently working on embodied AI and world-model related research and engineering tasks.</p>
     </div>
+    <div class="home-item">
+      <div class="home-item-title"><a href="https://cy.ustb.edu.cn/cyjd/dshd_ca6c6ee6a2a54e389e52a8928a7e7d56/jcdc_ca6c6ee6a2a54e389e52a8928a7e7d56/5a0c37fcfc1a4825bc57540432b46948.htm" target="_blank" rel="noopener">MEI 竞技机器人实验室</a></div>
+      <div class="home-item-meta">Robotics Researcher and Control Engineer · 2023.08 - 2024.08</div>
+      <p>Worked on ROBOCON robot control systems, including electrical control, communication, cascaded PID control, chassis control, and competition robot development.</p>
+    </div>
 
     <h2 id="paper">Paper</h2>
     <ul>
       <li>
-        <strong>GaussianDream: A Feed-Forward 3D Gaussian World Model for Robotic Manipulation.</strong><br>
-        Zijian Zhang, Yuqing Jiang, Qian Cheng, Xiaofan Li, Si Liu, Ding Zhao, Ping Luo, Weitao Zhou, Haibao Yu. arXiv:2605.20752, 2026. <a href="https://arxiv.org/abs/2605.20752">Paper</a>
+        <strong><a href="https://arxiv.org/abs/2605.20752">GaussianDream: A Feed-Forward 3D Gaussian World Model for Robotic Manipulation.</a></strong><br>
+        Zijian Zhang, Yuqing Jiang, Qian Cheng, Xiaofan Li, Si Liu, Ding Zhao, Ping Luo, Weitao Zhou, Haibao Yu. arXiv:2605.20752, 2026.
       </li>
       <li>
-        <strong>Software-Defined Parallel LiDARs for Active 3D Perception.</strong><br>
-        Zijian Zhang. IEEE/ASME MESA, 2025. <a href="https://ieeexplore.ieee.org/document/11278878" target="_blank" rel="noopener">Paper</a>
+        <strong><a href="https://ieeexplore.ieee.org/document/11278878" target="_blank" rel="noopener">Software-Defined Parallel LiDARs for Active 3D Perception.</a></strong><br>
+        Zijian Zhang. IEEE/ASME MESA, 2025.
       </li>
       <li>
-        <strong>Fuse and Refine: Towards Robust and Accurate HD Map Annotation.</strong><br>
+        <strong><a href="{{ '/projects/hd-map-autolabel/' | relative_url }}">Fuse and Refine: Towards Robust and Accurate HD Map Annotation.</a></strong><br>
         Zijian Zhang et al. Submitted to IROS, 2026.
+      </li>
+      <li>
+        <strong><a href="{{ '/projects/worlddream/' | relative_url }}">WorldDream: Action-Compatible 3D World Tokens for Efficient Vision-Language-Action Control.</a></strong><br>
+        Research manuscript, 2026.
+      </li>
+      <li>
+        <strong><a href="{{ '/projects/gaussianwam/' | relative_url }}">GaussianWAM: Distilling Geometry and Semantics from 3D Gaussian Fields into World-Action Models.</a></strong><br>
+        Research manuscript, 2026.
       </li>
     </ul>
 
     <h2 id="project">Project</h2>
     <ul>
-      <li><strong>GaussianDream:</strong> 3D Gaussian world model for robotic manipulation.</li>
-      <li><strong>WorldDream:</strong> action-compatible world tokens for efficient VLA control.</li>
-      <li><strong>GaussianWAM:</strong> geometry and semantics distillation into world-action models.</li>
-      <li><strong>Fuse and Refine:</strong> HD map auto-labeling for autonomous driving scenes.</li>
-      <li><strong>Software-Defined Parallel LiDARs:</strong> active 3D perception with collaborative scanning.</li>
-      <li><strong>Competitions:</strong> ROBOCON robot control and multiple national robotics awards.</li>
+      <li><strong><a href="{{ '/projects/bevfusion/' | relative_url }}">BEVFusion Deployment for Unmanned Mining Vehicles:</a></strong> multimodal 3D object detection, pruning, TensorRT acceleration, and NVIDIA Orin deployment.</li>
+      <li><strong><a href="{{ '/projects/robocon/' | relative_url }}">ROBOCON Robot Control:</a></strong> electrical control, CAN/RS485 communication, cascaded PID, chassis control, and competition robot development.</li>
     </ul>
 
     <h2 id="awards">Awards</h2>
