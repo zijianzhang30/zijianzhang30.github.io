@@ -195,22 +195,22 @@ permalink: /
 
     <h2 id="experience">Experience</h2>
     <div class="home-item">
-      <div class="home-item-title"><a href="https://ia.cas.cn/" target="_blank" rel="noopener">中国科学院自动化研究所</a></div>
+      <div class="home-item-title"><a href="https://ia.cas.cn/" target="_blank" rel="noopener">Institute of Automation, Chinese Academy of Sciences</a></div>
       <div class="home-item-meta">Research Intern · 2024.08 - 2025.09</div>
       <p>Worked on multimodal perception and robot learning in a research environment focused on intelligent science and technology.</p>
     </div>
     <div class="home-item">
-      <div class="home-item-title"><a href="https://www.trunk.tech/" target="_blank" rel="noopener">主线科技</a></div>
+      <div class="home-item-title"><a href="https://www.trunk.tech/" target="_blank" rel="noopener">Trunk Tech</a></div>
       <div class="home-item-meta">Research Engineer · 2025.09 - 2026.02</div>
       <p>Worked on autonomous-driving perception and system deployment for intelligent trucking and logistics scenarios.</p>
     </div>
     <div class="home-item">
-      <div class="home-item-title"><a href="https://github.com/TuojingAI" target="_blank" rel="noopener">拓境智能</a></div>
+      <div class="home-item-title"><a href="https://github.com/TuojingAI" target="_blank" rel="noopener">Tuojing AI</a></div>
       <div class="home-item-meta">Research / Engineering Intern · 2026.02 - Present</div>
       <p>Currently working on embodied AI and world-model research and engineering tasks.</p>
     </div>
     <div class="home-item">
-      <div class="home-item-title"><a href="https://cy.ustb.edu.cn/cyjd/dshd_ca6c6ee6a2a54e389e52a8928a7e7d56/jcdc_ca6c6ee6a2a54e389e52a8928a7e7d56/5a0c37fcfc1a4825bc57540432b46948.htm" target="_blank" rel="noopener">MEI 竞技机器人实验室</a></div>
+      <div class="home-item-title"><a href="https://cy.ustb.edu.cn/cyjd/dshd_ca6c6ee6a2a54e389e52a8928a7e7d56/jcdc_ca6c6ee6a2a54e389e52a8928a7e7d56/5a0c37fcfc1a4825bc57540432b46948.htm" target="_blank" rel="noopener">MEI Competitive Robotics Lab</a></div>
       <div class="home-item-meta">Robotics Researcher and Control Engineer · 2023.08 - 2024.08</div>
       <p>Worked on ROBOCON robot control systems, including electrical control, communication, cascaded PID control, chassis control, and competition robot development.</p>
     </div>
