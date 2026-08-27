@@ -7,7 +7,7 @@ category: research
 related_publications: true
 ---
 
-[Paper](https://arxiv.org/abs/2608.24714)
+[Paper](https://arxiv.org/abs/2608.25659)
 
 GaussianDream++ studies how to add compact explicit 3D world states to VLA policies without slowing down closed-loop control at inference time.
 

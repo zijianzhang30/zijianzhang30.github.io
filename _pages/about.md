@@ -230,12 +230,12 @@ permalink: /
         Zijian Zhang et al. Submitted to IROS, 2026.
       </li>
       <li>
-        <strong><a href="https://arxiv.org/abs/2608.24714">GaussianDream++.</a></strong><br>
-        arXiv:2608.24714, 2026.
+        <strong><a href="https://arxiv.org/abs/2608.25659">GaussianDream++.</a></strong><br>
+        Zijian Zhang et al. arXiv:2608.25659, 2026.
       </li>
       <li>
-        <strong><a href="https://arxiv.org/abs/2608.25659">GaussianWAM: Distilling Geometry and Semantics from 3D Gaussian Fields into World-Action Models.</a></strong><br>
-        arXiv:2608.25659, 2026.
+        <strong><a href="https://arxiv.org/abs/2608.24714">GaussianWAM: Distilling Geometry and Semantics from 3D Gaussian Fields into World-Action Models.</a></strong><br>
+        Zijian Zhang et al. arXiv:2608.24714, 2026.
       </li>
     </ul>
 

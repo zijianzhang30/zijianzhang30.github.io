@@ -7,7 +7,7 @@ category: research
 related_publications: true
 ---
 
-[Paper](https://arxiv.org/abs/2608.25659)
+[Paper](https://arxiv.org/abs/2608.24714)
 
 GaussianWAM addresses the lack of reliable 3D geometry and visual semantics in world-action models trained mainly in RGB or 2D video latent spaces.
 
