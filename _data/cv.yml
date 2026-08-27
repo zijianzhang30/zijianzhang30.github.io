@@ -34,12 +34,12 @@ cv:
           - Programming languages include C, C++, Python, and MATLAB.
 
     Research:
-      - company: WorldDream
+      - company: GaussianDream++
         position: Co-first second author
         location: Beijing, China
         start_date: 2026-04
         end_date: 2026-07
-        summary: Action-compatible 3D world tokens for efficient vision-language-action control.
+        summary: An action-compatible 3D world model for vision-language-action control.
         highlights:
           - Designed world state tokens, world prediction tokens, and a coupled Gaussian world head for compact 3D world modeling inside VLA policies.
           - Used static-dynamic residual transition modeling with RGB, depth, alpha, and 3D motion supervision during training, while removing Gaussian decoding modules at inference.

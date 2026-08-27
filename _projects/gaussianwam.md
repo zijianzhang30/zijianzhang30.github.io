@@ -7,6 +7,8 @@ category: research
 related_publications: true
 ---
 
+[Paper](https://arxiv.org/abs/2608.25659)
+
 GaussianWAM addresses the lack of reliable 3D geometry and visual semantics in world-action models trained mainly in RGB or 2D video latent spaces.
 
 The project uses **3D Gaussian Fields** as a unified spatial carrier. Geometry and semantic features are bound to Gaussian primitives, then rendered semantic, depth, and alpha signals are distilled into action-relevant WAM representations. The Gaussian teacher and auxiliary heads are only used during training, so the policy keeps zero additional inference overhead.

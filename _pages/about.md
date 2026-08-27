@@ -230,12 +230,12 @@ permalink: /
         Zijian Zhang et al. Submitted to IROS, 2026.
       </li>
       <li>
-        <strong><a href="{{ '/projects/worlddream/' | relative_url }}">WorldDream: Action-Compatible 3D World Tokens for Efficient Vision-Language-Action Control.</a></strong><br>
-        Research manuscript, 2026.
+        <strong><a href="https://arxiv.org/abs/2608.24714">GaussianDream++.</a></strong><br>
+        arXiv:2608.24714, 2026.
       </li>
       <li>
-        <strong><a href="{{ '/projects/gaussianwam/' | relative_url }}">GaussianWAM: Distilling Geometry and Semantics from 3D Gaussian Fields into World-Action Models.</a></strong><br>
-        Research manuscript, 2026.
+        <strong><a href="https://arxiv.org/abs/2608.25659">GaussianWAM: Distilling Geometry and Semantics from 3D Gaussian Fields into World-Action Models.</a></strong><br>
+        arXiv:2608.25659, 2026.
       </li>
     </ul>
 
