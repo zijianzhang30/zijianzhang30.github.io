@@ -256,7 +256,7 @@ permalink: /
           <img class="paper-thumb" src="{{ '/assets/img/papers/hdmap.png' | relative_url }}" alt="HD map thumbnail">
           <div>
             <div class="paper-title"><a href="{{ '/projects/hd-map-autolabel/' | relative_url }}">Fuse and Refine: Towards Robust and Accurate HD Map Annotation.</a></div>
-            <div class="paper-authors"><strong>Zijian Zhang</strong> et al.</div>
+            <div class="paper-authors"><strong>Zijian Zhang</strong>, Rui Zhu, Jiansong Chen, Wenbo Li, Jun Xiao, Dongbo Yu* (512243, 511837, 511369, 506108, 476103, 474401).</div>
             <div class="paper-venue">Submitted to IROS, 2026.</div>
             <div class="paper-desc">Robust and accurate HD map auto-labeling for large-scale autonomous-driving scenes.</div>
             <div class="paper-links"><a href="{{ '/projects/hd-map-autolabel/' | relative_url }}">Project</a></div>
