@@ -95,15 +95,17 @@ permalink: /
 
   .paper-item {
     display: grid;
-    grid-template-columns: 178px minmax(0, 1fr);
-    gap: 1rem;
-    align-items: start;
-    padding-bottom: 1.05rem;
+    grid-template-columns: 230px minmax(0, 1fr);
+    gap: 1.15rem;
+    align-items: stretch;
+    padding-bottom: 1.15rem;
     border-bottom: 1px solid var(--global-divider-color);
   }
 
   .paper-thumb {
     width: 100%;
+    height: 142px;
+    object-fit: cover;
     border-radius: 6px;
     border: 1px solid var(--global-divider-color);
     background: var(--global-bg-color);
@@ -151,6 +153,7 @@ permalink: /
 
     .paper-thumb {
       max-width: 360px;
+      height: auto;
     }
   }
 </style>
