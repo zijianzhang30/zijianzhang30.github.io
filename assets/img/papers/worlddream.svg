@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="3D world tokens thumbnail">
+  <defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#eef7f6"/><stop offset="1" stop-color="#d8eee9"/></linearGradient></defs>
+  <rect width="640" height="360" fill="url(#g)"/>
+  <g fill="none" stroke="#0f6f78" stroke-width="5" opacity=".8">
+    <path d="M115 250 320 132l205 118-205 72z"/>
+    <path d="M115 250V138L320 36l205 102v112" opacity=".45"/>
+    <path d="M320 132V36M115 138l205 112 205-112" opacity=".45"/>
+  </g>
+  <g fill="#c06f3f" opacity=".9">
+    <circle cx="210" cy="215" r="14"/><circle cx="320" cy="162" r="14"/><circle cx="430" cy="215" r="14"/>
+  </g>
+  <text x="42" y="58" fill="#17202a" font-family="Georgia,serif" font-size="31" font-weight="700">3D World Tokens</text>
+  <text x="42" y="94" fill="#687384" font-family="Arial,sans-serif" font-size="18">VLA control · Gaussian world model</text>
+</svg>
