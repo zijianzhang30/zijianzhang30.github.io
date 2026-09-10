@@ -206,7 +206,7 @@ permalink: /
       <h2>📝 Publications</h2>
       <div class="paper-list">
         <article class="paper-item">
-          <img class="paper-thumb" src="{{ '/assets/img/papers/worlddream.svg' | relative_url }}" alt="GaussianDream++ thumbnail">
+          <img class="paper-thumb" src="{{ '/assets/img/papers/worlddream.png' | relative_url }}" alt="GaussianDream++ thumbnail">
           <div>
             <div class="paper-title"><a href="https://arxiv.org/abs/2608.25659" target="_blank" rel="noopener">GaussianDream++: Efficient 3D Gaussian World Modeling for Robotic Manipulation.</a></div>
             <div class="paper-authors">Yuqing Jiang, <strong>Zijian Zhang</strong>, Weitao Zhou, Jiawei Wang, Junjie He, Lei Yang, Haifang Qing, Si Liu, Ding Zhao, Ping Luo, Haibao Yu.</div>
@@ -217,7 +217,7 @@ permalink: /
         </article>
 
         <article class="paper-item">
-          <img class="paper-thumb" src="{{ '/assets/img/papers/gaussianwam.svg' | relative_url }}" alt="GaussianWAM thumbnail">
+          <img class="paper-thumb" src="{{ '/assets/img/papers/gaussianwam.png' | relative_url }}" alt="GaussianWAM thumbnail">
           <div>
             <div class="paper-title"><a href="https://arxiv.org/abs/2608.24714" target="_blank" rel="noopener">GaussianWAM: Distilling Geometry and Semantics from 3D Gaussian Fields into World-Action Models.</a></div>
             <div class="paper-authors"><strong>Zijian Zhang</strong>, Yuqing Jiang, Weitao Zhou, Minglei Li, Jinhao Zhang, Yao Mu, Xiaofan Li, Hao Zhao, Haibao Yu.</div>
@@ -228,7 +228,7 @@ permalink: /
         </article>
 
         <article class="paper-item">
-          <img class="paper-thumb" src="{{ '/assets/img/papers/gaussiandream.svg' | relative_url }}" alt="GaussianDream thumbnail">
+          <img class="paper-thumb" src="{{ '/assets/img/papers/GaussianDream.png' | relative_url }}" alt="GaussianDream thumbnail">
           <div>
             <div class="paper-title"><a href="https://arxiv.org/abs/2605.20752" target="_blank" rel="noopener">GaussianDream: A Feed-Forward 3D Gaussian World Model for Robotic Manipulation.</a></div>
             <div class="paper-authors"><strong>Zijian Zhang</strong>, Yuqing Jiang, Qian Cheng, Xiaofan Li, Si Liu, Ding Zhao, Ping Luo, Weitao Zhou, Haibao Yu.</div>
@@ -239,7 +239,7 @@ permalink: /
         </article>
 
         <article class="paper-item">
-          <img class="paper-thumb" src="{{ '/assets/img/papers/lidar.svg' | relative_url }}" alt="Active LiDAR thumbnail">
+          <img class="paper-thumb" src="{{ '/assets/img/papers/lidar.png' | relative_url }}" alt="Active LiDAR thumbnail">
           <div>
             <div class="paper-title"><a href="https://ieeexplore.ieee.org/document/11278878" target="_blank" rel="noopener">Software-Defined Parallel LiDARs for Active 3D Perception.</a></div>
             <div class="paper-authors"><strong>Zijian Zhang</strong>.</div>
@@ -250,7 +250,7 @@ permalink: /
         </article>
 
         <article class="paper-item">
-          <img class="paper-thumb" src="{{ '/assets/img/papers/hdmap.svg' | relative_url }}" alt="HD map thumbnail">
+          <img class="paper-thumb" src="{{ '/assets/img/papers/hdmap.png' | relative_url }}" alt="HD map thumbnail">
           <div>
             <div class="paper-title"><a href="{{ '/projects/hd-map-autolabel/' | relative_url }}">Fuse and Refine: Towards Robust and Accurate HD Map Annotation.</a></div>
             <div class="paper-authors"><strong>Zijian Zhang</strong> et al.</div>
@@ -261,7 +261,7 @@ permalink: /
         </article>
 
         <article class="paper-item">
-          <img class="paper-thumb" src="{{ '/assets/img/papers/bevfusion.svg' | relative_url }}" alt="BEVFusion thumbnail">
+          <img class="paper-thumb" src="{{ '/assets/img/papers/bevfusion.png' | relative_url }}" alt="BEVFusion thumbnail">
           <div>
             <div class="paper-title"><a href="{{ '/projects/bevfusion/' | relative_url }}">BEVFusion Deployment for Unmanned Mining Vehicles.</a></div>
             <div class="paper-authors"><strong>Zijian Zhang</strong>.</div>
