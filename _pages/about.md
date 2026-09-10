@@ -245,7 +245,7 @@ permalink: /
           <img class="paper-thumb" src="{{ '/assets/img/papers/lidar.png' | relative_url }}" alt="Active LiDAR thumbnail">
           <div>
             <div class="paper-title"><a href="https://ieeexplore.ieee.org/document/11278878" target="_blank" rel="noopener">Software-Defined Parallel LiDARs for Active 3D Perception.</a></div>
-            <div class="paper-authors"><strong>Zijian Zhang</strong>.</div>
+            <div class="paper-authors"><strong>Zijian Zhang</strong>, Yuhang Liu, Boyi Sun, Jing Yang, Yutong Wang, Fei-Yue Wang.</div>
             <div class="paper-venue">IEEE/ASME MESA, 2025.</div>
             <div class="paper-desc">Collaborative perception and active LiDAR scanning for autonomous-driving scenes.</div>
             <div class="paper-links"><a href="https://ieeexplore.ieee.org/document/11278878" target="_blank" rel="noopener">Paper</a></div>
