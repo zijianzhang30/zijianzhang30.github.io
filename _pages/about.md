@@ -236,6 +236,17 @@ permalink: /
       <h2>📝 Publications</h2>
       <div class="paper-list">
         <article class="paper-item">
+          <img class="paper-thumb" src="{{ '/assets/img/papers/gaussian4xwam.png' | relative_url }}" alt="Gaussian4XWAM thumbnail">
+          <div>
+            <div class="paper-title"><a href="{{ '/assets/pdf/gaussian4xwam.pdf' | relative_url }}" target="_blank" rel="noopener">Gaussian4XWAM: Gaussian Field Enhancement for World-Action Models.</a></div>
+            <div class="paper-authors"><strong>Zijian Zhang</strong>, Yuqing Jiang, Haibao Yu.</div>
+            <div class="paper-venue">IROS Workshop on Physical World Models for Scaling Embodied AI, 2026. Poster.</div>
+            <div class="paper-desc">Training-time 3D Gaussian supervision enhances world-action models without additional inference overhead.</div>
+            <div class="paper-links"><a href="{{ '/assets/pdf/gaussian4xwam.pdf' | relative_url }}" target="_blank" rel="noopener">Paper</a></div>
+          </div>
+        </article>
+
+        <article class="paper-item">
           <img class="paper-thumb" src="{{ '/assets/img/papers/worlddream.png' | relative_url }}" alt="GaussianDream++ thumbnail">
           <div>
             <div class="paper-title"><a href="https://arxiv.org/abs/2608.25659" target="_blank" rel="noopener">GaussianDream++: Efficient 3D Gaussian World Modeling for Robotic Manipulation.</a></div>
