@@ -181,22 +181,6 @@
             
           
             
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
               
                 
                 <li class="nav-item ">
@@ -491,6 +475,8 @@
       <h2>🔥 News</h2>
       <ul class="news-list">
         <li>
+<span class="news-date">[2026.10]</span> Our PhysLadder technical report on GPT-6 Astra's contact-rich manipulation capabilities is available on arXiv.</li>
+        <li>
 <span class="news-date">[2026.08]</span> We release GaussianDream++, with paper available.</li>
         <li>
 <span class="news-date">[2026.08]</span> We release GaussianWAM, with paper available.</li>
@@ -512,6 +498,31 @@
     <section class="profile-section">
       <h2>📝 Publications</h2>
       <div class="paper-list">
+        <article class="paper-item">
+          <img class="paper-thumb" style="object-fit: contain;" src="/assets/img/publication_preview/physladder.png" alt="PhysLadder overview: matched Sim-Real evaluation, three interaction levels, and success rates">
+          <div>
+            <div class="paper-title"><a href="https://arxiv.org/abs/2610.34527" target="_blank" rel="noopener">How High Can GPT-6 Astra Climb in Contact-Rich Manipulation? PhysLadder: A Hierarchical, Matched Sim-Real Benchmark for Physical Interaction.</a></div>
+            <div class="paper-authors">Haibao Yu*, Jiaqi Meng*, <strong>Zijian Zhang*</strong>, Bowen Jing, Lei Yang, Yue Hu, Chenchen Ge, Yiming Hou, Chenbo Xin, Dawen Ye, Haifang Qin, Jin Li, Weitao Zhou, Jianing Qiu, Jiankai Sun, Dandan Zhang, Zaiqing Nie, Ping Luo, Ding Zhao.</div>
+            <div class="paper-venue">arXiv Technical Report, 2026. (* Equal contribution)</div>
+            <div class="paper-desc">A hierarchical benchmark with 16 matched Sim-Real tasks across three levels of contact-rich manipulation, evaluating GPT-6 Astra's physical interaction capabilities.</div>
+            <div class="paper-links">
+<a href="https://arxiv.org/abs/2610.34527" target="_blank" rel="noopener">Paper</a><a href="https://physladder-benchmark.com/" target="_blank" rel="noopener">Project</a><a href="https://github.com/PhysLadder-Benchmark/PhysLadder" target="_blank" rel="noopener">Code</a>
+</div>
+          </div>
+        </article>
+
+        <article class="paper-item">
+          <img class="paper-thumb" src="/assets/img/papers/gaussian4xwam.png" alt="Gaussian4XWAM thumbnail">
+          <div>
+            <div class="paper-title"><a href="/assets/pdf/gaussian4xwam.pdf" target="_blank" rel="noopener">Gaussian4XWAM: Gaussian Field Enhancement for World-Action Models.</a></div>
+            <div class="paper-authors">
+<strong>Zijian Zhang</strong>, Yuqing Jiang, Haibao Yu.</div>
+            <div class="paper-venue">IROS Workshop on Physical World Models for Scaling Embodied AI, 2026. Poster.</div>
+            <div class="paper-desc">Training-time 3D Gaussian supervision enhances world-action models without additional inference overhead.</div>
+            <div class="paper-links"><a href="/assets/pdf/gaussian4xwam.pdf" target="_blank" rel="noopener">Paper</a></div>
+          </div>
+        </article>
+
         <article class="paper-item">
           <img class="paper-thumb" src="/assets/img/papers/worlddream.png" alt="GaussianDream++ thumbnail">
           <div>
@@ -599,6 +610,7 @@
         </article>
       </div>
     </section>
+
   </main>
 </div>
 
@@ -763,23 +775,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! <img class="emoji" title=":sparkles:" alt=":sparkles:" src="https://github.githubassets.com/images/icons/emoji/unicode/2728.png" height="20" width="20"> <img class="emoji" title=":smile:" alt=":smile:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png" height="20" width="20">',
-          description: "",
-          section: "News",},{id: "projects-software-defined-parallel-lidars",
+        },{id: "projects-software-defined-parallel-lidars",
           title: 'Software-Defined Parallel LiDARs',
           description: "Active 3D perception with collaborative sensing and dynamic LiDAR scanning.",
           section: "Projects",handler: () => {
@@ -814,16 +810,6 @@ ninja.data = [{
           description: "Efficient 3D Gaussian world modeling for robotic manipulation.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/worlddream/";
-            },},{id: "teachings-data-science-fundamentals",
-          title: 'Data Science Fundamentals',
-          description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
-          section: "Teachings",handler: () => {
-              window.location.href = "/teachings/data-science-fundamentals/";
-            },},{id: "teachings-introduction-to-machine-learning",
-          title: 'Introduction to Machine Learning',
-          description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
-          section: "Teachings",handler: () => {
-              window.location.href = "/teachings/introduction-to-machine-learning/";
             },},{
         id: 'social-email',
         title: 'email',
