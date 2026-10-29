@@ -221,6 +221,7 @@ permalink: /
     <section class="profile-section">
       <h2>🔥 News</h2>
       <ul class="news-list">
+        <li><span class="news-date">[2026.10]</span> Our PhysLadder technical report on GPT-6 Astra's contact-rich manipulation capabilities is available on arXiv.</li>
         <li><span class="news-date">[2026.08]</span> We release GaussianDream++, with paper available.</li>
         <li><span class="news-date">[2026.08]</span> We release GaussianWAM, with paper available.</li>
         <li><span class="news-date">[2026.05]</span> GaussianDream is available on arXiv.</li>
@@ -235,6 +236,17 @@ permalink: /
     <section class="profile-section">
       <h2>📝 Publications</h2>
       <div class="paper-list">
+        <article class="paper-item">
+          <img class="paper-thumb" style="object-fit: contain;" src="{{ '/assets/img/publication_preview/physladder.png' | relative_url }}" alt="PhysLadder overview: matched Sim-Real evaluation, three interaction levels, and success rates">
+          <div>
+            <div class="paper-title"><a href="https://arxiv.org/abs/2610.34527" target="_blank" rel="noopener">How High Can GPT-6 Astra Climb in Contact-Rich Manipulation? PhysLadder: A Hierarchical, Matched Sim-Real Benchmark for Physical Interaction.</a></div>
+            <div class="paper-authors">Haibao Yu*, Jiaqi Meng*, <strong>Zijian Zhang*</strong>, Bowen Jing, Lei Yang, Yue Hu, Chenchen Ge, Yiming Hou, Chenbo Xin, Dawen Ye, Haifang Qin, Jin Li, Weitao Zhou, Jianing Qiu, Jiankai Sun, Dandan Zhang, Zaiqing Nie, Ping Luo, Ding Zhao.</div>
+            <div class="paper-venue">arXiv Technical Report, 2026. (* Equal contribution)</div>
+            <div class="paper-desc">A hierarchical benchmark with 16 matched Sim-Real tasks across three levels of contact-rich manipulation, evaluating GPT-6 Astra's physical interaction capabilities.</div>
+            <div class="paper-links"><a href="https://arxiv.org/abs/2610.34527" target="_blank" rel="noopener">Paper</a><a href="https://physladder-benchmark.com/" target="_blank" rel="noopener">Project</a><a href="https://github.com/PhysLadder-Benchmark/PhysLadder" target="_blank" rel="noopener">Code</a></div>
+          </div>
+        </article>
+
         <article class="paper-item">
           <img class="paper-thumb" src="{{ '/assets/img/papers/gaussian4xwam.png' | relative_url }}" alt="Gaussian4XWAM thumbnail">
           <div>
@@ -327,5 +339,6 @@ permalink: /
         </article>
       </div>
     </section>
+
   </main>
 </div>
