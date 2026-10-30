@@ -5,8 +5,11 @@ Academic homepage for Zijian Zhang, built with Jekyll and al-folio.
 ## Local update workflow
 
 1. Edit site content.
-   - Homepage: `_pages/about.md`
-   - Publications: `_bibliography/papers.bib`
+   - Homepage: `_pages/about.html`
+   - Homepage publications and news: `_data/homepage.json`
+   - Bibliography page: `_bibliography/papers.bib`
+   - Homepage appearance: `assets/css/homepage.css`
+   - Homepage interactions: `assets/js/homepage.js`
    - Projects: `_projects/*.md`
    - CV data: `_data/cv.yml`
    - Profile photo: `assets/img/profile.png`

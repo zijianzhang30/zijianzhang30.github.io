@@ -1,0 +1,268 @@
+{
+  "publications": [
+    {
+      "title": "How High Can GPT-6 Astra Climb in Contact-Rich Manipulation? PhysLadder: A Hierarchical, Matched Sim-Real Benchmark for Physical Interaction",
+      "url": "https://arxiv.org/abs/2610.34527",
+      "authors": "Haibao Yu*, Jiaqi Meng*, <strong>Zijian Zhang*</strong>, Bowen Jing, Lei Yang, Yue Hu, Chenchen Ge, Yiming Hou, Chenbo Xin, Dawen Ye, Haifang Qin, Jin Li, Weitao Zhou, Jianing Qiu, Jiankai Sun, Dandan Zhang, Zaiqing Nie, Ping Luo, Ding Zhao.",
+      "venue": "arXiv Technical Report, 2026. (* Equal contribution)",
+      "summary": "A hierarchical benchmark with 16 matched Sim-Real tasks across three levels of contact-rich manipulation, evaluating GPT-6 Astra's physical interaction capabilities.",
+      "images": [
+        {
+          "src": "/assets/img/publication_preview/physladder.png",
+          "alt": "PhysLadder overview: matched Sim-Real evaluation, three interaction levels, and success rates"
+        }
+      ],
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2610.34527"
+        },
+        {
+          "label": "Project",
+          "url": "https://physladder-benchmark.com/"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/PhysLadder-Benchmark/PhysLadder"
+        }
+      ],
+      "category": "preprint",
+      "year": "2026",
+      "kind": "Technical report",
+      "authors_short": "Haibao Yu*, Jiaqi Meng*, <strong>Zijian Zhang*</strong>",
+      "more_authors": true
+    },
+    {
+      "title": "Gaussian4XWAM: Gaussian Field Enhancement for World-Action Models",
+      "url": "/assets/pdf/gaussian4xwam.pdf",
+      "authors": "<strong>Zijian Zhang</strong>, Yuqing Jiang, Haibao Yu.",
+      "venue": "IROS Workshop on Physical World Models for Scaling Embodied AI, 2026. Poster.",
+      "summary": "Training-time 3D Gaussian supervision enhances world-action models without additional inference overhead.",
+      "images": [
+        {
+          "src": "/assets/img/papers/gaussian4xwam.png",
+          "alt": "Gaussian4XWAM thumbnail"
+        }
+      ],
+      "links": [
+        {
+          "label": "Paper",
+          "url": "/assets/pdf/gaussian4xwam.pdf"
+        }
+      ],
+      "category": "conference",
+      "year": "2026",
+      "kind": "Workshop poster",
+      "authors_short": "<strong>Zijian Zhang</strong>, Yuqing Jiang, Haibao Yu",
+      "more_authors": false
+    },
+    {
+      "title": "GaussianDream++: Efficient 3D Gaussian World Modeling for Robotic Manipulation",
+      "url": "https://arxiv.org/abs/2608.25659",
+      "authors": "Yuqing Jiang, <strong>Zijian Zhang</strong>, Weitao Zhou, Jiawei Wang, Junjie He, Lei Yang, Haifang Qing, Si Liu, Ding Zhao, Ping Luo, Haibao Yu.",
+      "venue": "arXiv, 2026.",
+      "summary": "Action-compatible 3D world tokens for efficient VLA control.",
+      "images": [
+        {
+          "src": "/assets/img/papers/worlddream.png",
+          "alt": "GaussianDream++ thumbnail"
+        }
+      ],
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2608.25659"
+        }
+      ],
+      "category": "preprint",
+      "year": "2026",
+      "kind": "Preprint",
+      "authors_short": "Yuqing Jiang, <strong>Zijian Zhang</strong>, Weitao Zhou",
+      "more_authors": true
+    },
+    {
+      "title": "GaussianWAM: Distilling Geometry and Semantics from 3D Gaussian Fields into World-Action Models",
+      "url": "https://arxiv.org/abs/2608.24714",
+      "authors": "<strong>Zijian Zhang</strong>, Yuqing Jiang, Weitao Zhou, Minglei Li, Jinhao Zhang, Yao Mu, Xiaofan Li, Hao Zhao, Haibao Yu.",
+      "venue": "arXiv, 2026.",
+      "summary": "Injecting 3D geometry and visual semantics into action-relevant WAM representations.",
+      "images": [
+        {
+          "src": "/assets/img/papers/gaussianwam.png",
+          "alt": "GaussianWAM thumbnail"
+        }
+      ],
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2608.24714"
+        }
+      ],
+      "category": "preprint",
+      "year": "2026",
+      "kind": "Preprint",
+      "authors_short": "<strong>Zijian Zhang</strong>, Yuqing Jiang, Weitao Zhou",
+      "more_authors": true
+    },
+    {
+      "title": "GaussianDream: A Feed-Forward 3D Gaussian World Model for Robotic Manipulation",
+      "url": "https://arxiv.org/abs/2605.20752",
+      "authors": "<strong>Zijian Zhang</strong>, Yuqing Jiang, Qian Cheng, Xiaofan Li, Si Liu, Ding Zhao, Ping Luo, Weitao Zhou, Haibao Yu.",
+      "venue": "arXiv, 2026.",
+      "summary": "A 3D Gaussian world model plug-in with current reconstruction and future prediction.",
+      "images": [
+        {
+          "src": "/assets/img/papers/GaussianDream.png",
+          "alt": "GaussianDream thumbnail"
+        }
+      ],
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2605.20752"
+        }
+      ],
+      "category": "preprint",
+      "year": "2026",
+      "kind": "Preprint",
+      "authors_short": "<strong>Zijian Zhang</strong>, Yuqing Jiang, Qian Cheng",
+      "more_authors": true
+    },
+    {
+      "title": "Software-Defined Parallel LiDARs for Active 3D Perception",
+      "url": "https://ieeexplore.ieee.org/document/11278878",
+      "authors": "<strong>Zijian Zhang</strong>, Yuhang Liu, Boyi Sun, Jing Yang, Yutong Wang, Fei-Yue Wang.",
+      "venue": "IEEE/ASME MESA, 2025.",
+      "summary": "Collaborative perception and active LiDAR scanning for autonomous-driving scenes.",
+      "images": [
+        {
+          "src": "/assets/img/papers/lidar.png",
+          "alt": "Active LiDAR thumbnail"
+        }
+      ],
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://ieeexplore.ieee.org/document/11278878"
+        }
+      ],
+      "category": "conference",
+      "year": "2025",
+      "kind": "Conference paper",
+      "authors_short": "<strong>Zijian Zhang</strong>, Yuhang Liu, Boyi Sun",
+      "more_authors": true
+    },
+    {
+      "title": "Fuse and Refine: Towards Robust and Accurate HD Map Annotation",
+      "url": "/projects/hd-map-autolabel/",
+      "authors": "<strong>Zijian Zhang</strong>, Rui Zhu, Jiansong Chen, Wenbo Li, Jun Xiao, Dongbo Yu*.",
+      "venue": "Submitted to IROS, 2026.",
+      "summary": "Robust and accurate HD map auto-labeling for large-scale autonomous-driving scenes.",
+      "images": [
+        {
+          "src": "/assets/img/papers/hdmap.png",
+          "alt": "HD map thumbnail"
+        }
+      ],
+      "links": [
+        {
+          "label": "Project",
+          "url": "/projects/hd-map-autolabel/"
+        }
+      ],
+      "category": "preprint",
+      "year": "2026",
+      "kind": "Manuscript",
+      "authors_short": "<strong>Zijian Zhang</strong>, Rui Zhu, Jiansong Chen",
+      "more_authors": true
+    }
+  ],
+  "projects": [
+    {
+      "title": "BEVFusion Deployment for Unmanned Mining Vehicles",
+      "url": "/projects/bevfusion/",
+      "authors": "<strong>Zijian Zhang</strong>.",
+      "venue": "Engineering Project, 2025.",
+      "summary": "Multimodal 3D detection, pruning, TensorRT acceleration, and NVIDIA Orin deployment.",
+      "images": [
+        {
+          "src": "/assets/img/papers/bevfusion.png",
+          "alt": "BEVFusion thumbnail"
+        }
+      ],
+      "links": [
+        {
+          "label": "Project",
+          "url": "/projects/bevfusion/"
+        }
+      ],
+      "category": "preprint",
+      "year": "2025",
+      "kind": "Preprint"
+    },
+    {
+      "title": "ROBOCON Robot Control",
+      "url": "/projects/robocon/",
+      "authors": "<strong>Zijian Zhang</strong>.",
+      "venue": "MEI Competitive Robotics Lab, 2023.08 -- 2024.08.",
+      "summary": "Electrical control system development, communication networks, cascaded PID control, chassis control, and competition robot development.",
+      "images": [
+        {
+          "src": "/assets/img/papers/roboconR1.jpg",
+          "alt": "ROBOCON robot in competition"
+        },
+        {
+          "src": "/assets/img/papers/roboconR1_2.jpg",
+          "alt": "ROBOCON robot close-up"
+        }
+      ],
+      "links": [
+        {
+          "label": "Project",
+          "url": "/projects/robocon/"
+        }
+      ],
+      "category": "preprint",
+      "year": "2026",
+      "kind": "Preprint"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026.10",
+      "text": "Our PhysLadder technical report on GPT-6 Astra's contact-rich manipulation capabilities is available on arXiv."
+    },
+    {
+      "date": "2026.08",
+      "text": "We release GaussianDream++, with paper available."
+    },
+    {
+      "date": "2026.08",
+      "text": "We release GaussianWAM, with paper available."
+    },
+    {
+      "date": "2026.05",
+      "text": "GaussianDream is available on arXiv."
+    },
+    {
+      "date": "2026.05",
+      "text": "Jingdiao Cup Graduation Design Competition, First Prize."
+    },
+    {
+      "date": "2026.03",
+      "text": "Fuse and Refine is submitted to IROS."
+    },
+    {
+      "date": "2025.08",
+      "text": "Software-Defined Parallel LiDARs for Active 3D Perception is completed as a first-author work."
+    },
+    {
+      "date": "2025.07",
+      "text": "Champion, ROBOCON Equestrian Speed Race."
+    },
+    {
+      "date": "2024.07",
+      "text": "Champion, ROBOCON Programming Challenge; Third Place, ROBOCON Granary Challenge."
+    }
+  ]
+}
