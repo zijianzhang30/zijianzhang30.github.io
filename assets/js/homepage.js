@@ -27,6 +27,7 @@
   const articles = [...document.querySelectorAll(".publication-item")];
   const empty = document.querySelector(".search-empty");
   const status = document.querySelector(".search-status");
+  if (!controls || !search || !empty || !status) return;
   const indexed = articles.map((element) => ({ element, text: element.textContent.toLowerCase() }));
   let category = "all";
   function updatePublications() {

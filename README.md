@@ -12,6 +12,7 @@ Academic homepage for Zijian Zhang, built with Jekyll and al-folio.
    - Homepage interactions: `assets/js/homepage.js`
    - Projects: `_projects/*.md`
    - CV data: `_data/cv.yml`
+   - CV page and appearance: `_pages/cv.html`, `assets/css/cv.css`
    - Profile photo: `assets/img/profile.png`
 
 2. Preview locally.

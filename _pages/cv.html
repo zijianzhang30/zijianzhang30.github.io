@@ -1,0 +1,119 @@
+---
+layout: null
+permalink: /cv/
+title: CV
+nav: true
+nav_order: 5
+description: Academic CV.
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Curriculum Vitae | Zijian Zhang</title>
+    <meta name="description" content="Academic CV of Zijian Zhang: education, robotics research, engineering projects, honors, and skills." />
+    <meta name="theme-color" content="#1d428a" />
+    <link rel="canonical" href="{{ '/cv/' | absolute_url }}" />
+    <link rel="icon" href="{{ '/assets/img/profile-home.webp' | relative_url }}" type="image/webp" />
+    <link rel="preload" href="{{ '/assets/fonts/newsreader-latin.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="{{ '/assets/css/homepage.css' | relative_url }}" />
+    <link rel="stylesheet" href="{{ '/assets/css/cv.css' | relative_url }}" />
+    <script src="{{ '/assets/js/homepage.js' | relative_url }}?v=cv-blue" defer></script>
+  </head>
+  <body id="top" class="cv-page">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <nav class="nav-wrap" aria-label="Main navigation">
+        <a class="wordmark" href="{{ '/' | relative_url }}">Zijian Zhang<span class="wordmark-dot" aria-hidden="true">.</span></a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">Menu <span aria-hidden="true">+</span></button>
+        <div class="nav-links" id="main-nav">
+          <a href="{{ '/#about' | relative_url }}">About</a>
+          <a href="{{ '/#publications' | relative_url }}">Publications</a>
+          <a href="{{ '/#education' | relative_url }}">Education</a>
+          <a href="{{ '/#honors' | relative_url }}">Honors</a>
+          <a href="{{ '/cv/' | relative_url }}" aria-current="page">CV</a>
+          <a href="mailto:zijianzhang821@gmail.com">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    {% assign cv = site.data.cv.cv %}
+    <main class="academic-sheet cv-sheet" id="main">
+      <header class="cv-header">
+        <p class="eyebrow">Curriculum vitae</p>
+        <h1>{{ cv.name }} <span lang="zh">张梓健</span></h1>
+        <p class="cv-summary">{{ cv.summary }}</p>
+        <div class="cv-contact">
+          <a href="mailto:{{ cv.email }}">{{ cv.email }}</a>
+          <a href="https://github.com/zijianzhang30" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="{{ '/#publications' | relative_url }}">Publications ↗</a>
+          <span>{{ cv.location }}</span>
+        </div>
+      </header>
+
+      <nav class="cv-contents" aria-label="CV sections">
+        {% for section in cv.sections %}<a href="#{{ section[0] | slugify }}">{{ section[0] }}</a>{% endfor %}
+      </nav>
+
+      {% for section in cv.sections %} {% assign section_title = section[0] %}
+      <section class="content-section cv-section" id="{{ section_title | slugify }}">
+        <h2>{{ section_title }}</h2>
+        <div class="section-content">
+          {% if section_title == 'Skills' %}
+          <dl class="cv-skills">
+            {% for entry in section[1] %}
+            <div>
+              <dt>{{ entry.name }}</dt>
+              <dd>{{ entry.keywords }}</dd>
+            </div>
+            {% endfor %}
+          </dl>
+          {% elsif section_title == 'Awards' %}
+          <ul class="honors-list cv-awards">
+            {% assign awards = section[1] | sort: 'date' | reverse %} {% for entry in awards %}
+            <li>
+              <span><strong>{{ entry.title }}</strong><br /><span class="honor-detail">{{ entry.awarder }} · {{ entry.summary }}</span></span
+              ><time>{{ entry.date | replace: '-', '.' }}</time>
+            </li>
+            {% endfor %}
+          </ul>
+          {% else %} {% for entry in section[1] %}
+          <article class="cv-entry">
+            <div class="entry-topline">
+              <h3>{% if section_title == 'Education' %}{{ entry.institution }}{% else %}{{ entry.company }}{% endif %}</h3>
+              <span class="entry-date"
+                >{{ entry.start_date | replace: '-', '.' }} – {% if entry.end_date == 'present' %}Present{% else %}{{ entry.end_date | replace: '-',
+                '.' }}{% endif %}</span
+              >
+            </div>
+            <p class="cv-entry-role">
+              {% if section_title == 'Education' %}{{ entry.studyType }} · {{ entry.area }}{% else %}{{ entry.position }}{% endif %}
+            </p>
+            {% if entry.score %}
+            <p class="cv-entry-meta">Overall score {{ entry.score }}</p>
+            {% endif %} {% if entry.summary %}
+            <p class="cv-entry-summary">{{ entry.summary }}</p>
+            {% endif %} {% if entry.highlights %}
+            <ul class="cv-highlights">
+              {% for item in entry.highlights %}
+              <li>{{ item }}</li>
+              {% endfor %}
+            </ul>
+            {% endif %} {% if entry.courses %}
+            <p class="cv-entry-meta">Selected coursework: {{ entry.courses }}</p>
+            {% endif %}
+          </article>
+          {% endfor %} {% endif %}
+        </div>
+      </section>
+      {% endfor %}
+
+      <footer class="site-footer">
+        <span>© {{ 'now' | date: '%Y' }} Zijian Zhang</span
+        ><span><a href="{{ '/' | relative_url }}">Back to homepage</a> <span class="footer-dot">·</span> <a href="#top">Back to top ↑</a></span>
+      </footer>
+    </main>
+  </body>
+</html>
